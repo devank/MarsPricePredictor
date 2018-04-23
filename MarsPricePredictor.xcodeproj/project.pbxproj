@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		076E5C59208DA66C002E5215 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076E5C58208DA66C002E5215 /* AppDelegate.swift */; };
+		076E5C5B208DA66C002E5215 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076E5C5A208DA66C002E5215 /* ViewController.swift */; };
+		076E5C5E208DA66C002E5215 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 076E5C5C208DA66C002E5215 /* Main.storyboard */; };
+		076E5C60208DA66F002E5215 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 076E5C5F208DA66F002E5215 /* Assets.xcassets */; };
+		076E5C63208DA66F002E5215 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 076E5C61208DA66F002E5215 /* LaunchScreen.storyboard */; };
+		076E5C6E208DA66F002E5215 /* MarsPricePredictorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076E5C6D208DA66F002E5215 /* MarsPricePredictorTests.swift */; };
+		076E5C79208DA66F002E5215 /* MarsPricePredictorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076E5C78208DA66F002E5215 /* MarsPricePredictorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		076E5C6A208DA66F002E5215 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 076E5C4D208DA66B002E5215 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 076E5C54208DA66C002E5215;
+			remoteInfo = MarsPricePredictor;
+		};
+		076E5C75208DA66F002E5215 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 076E5C4D208DA66B002E5215 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 076E5C54208DA66C002E5215;
+			remoteInfo = MarsPricePredictor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		076E5C55208DA66C002E5215 /* MarsPricePredictor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsPricePredictor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		076E5C58208DA66C002E5215 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		076E5C5A208DA66C002E5215 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		076E5C5D208DA66C002E5215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		076E5C5F208DA66F002E5215 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		076E5C62208DA66F002E5215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		076E5C64208DA66F002E5215 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		076E5C69208DA66F002E5215 /* MarsPricePredictorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsPricePredictorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		076E5C6D208DA66F002E5215 /* MarsPricePredictorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsPricePredictorTests.swift; sourceTree = "<group>"; };
+		076E5C6F208DA66F002E5215 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		076E5C74208DA66F002E5215 /* MarsPricePredictorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsPricePredictorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		076E5C78208DA66F002E5215 /* MarsPricePredictorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsPricePredictorUITests.swift; sourceTree = "<group>"; };
+		076E5C7A208DA66F002E5215 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		076E5C52208DA66C002E5215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		076E5C66208DA66F002E5215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		076E5C71208DA66F002E5215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		076E5C4C208DA66B002E5215 = {
+			isa = PBXGroup;
+			children = (
+				076E5C57208DA66C002E5215 /* MarsPricePredictor */,
+				076E5C6C208DA66F002E5215 /* MarsPricePredictorTests */,
+				076E5C77208DA66F002E5215 /* MarsPricePredictorUITests */,
+				076E5C56208DA66C002E5215 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		076E5C56208DA66C002E5215 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				076E5C55208DA66C002E5215 /* MarsPricePredictor.app */,
+				076E5C69208DA66F002E5215 /* MarsPricePredictorTests.xctest */,
+				076E5C74208DA66F002E5215 /* MarsPricePredictorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		076E5C57208DA66C002E5215 /* MarsPricePredictor */ = {
+			isa = PBXGroup;
+			children = (
+				076E5C58208DA66C002E5215 /* AppDelegate.swift */,
+				076E5C5A208DA66C002E5215 /* ViewController.swift */,
+				076E5C5C208DA66C002E5215 /* Main.storyboard */,
+				076E5C5F208DA66F002E5215 /* Assets.xcassets */,
+				076E5C61208DA66F002E5215 /* LaunchScreen.storyboard */,
+				076E5C64208DA66F002E5215 /* Info.plist */,
+			);
+			path = MarsPricePredictor;
+			sourceTree = "<group>";
+		};
+		076E5C6C208DA66F002E5215 /* MarsPricePredictorTests */ = {
+			isa = PBXGroup;
+			children = (
+				076E5C6D208DA66F002E5215 /* MarsPricePredictorTests.swift */,
+				076E5C6F208DA66F002E5215 /* Info.plist */,
+			);
+			path = MarsPricePredictorTests;
+			sourceTree = "<group>";
+		};
+		076E5C77208DA66F002E5215 /* MarsPricePredictorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				076E5C78208DA66F002E5215 /* MarsPricePredictorUITests.swift */,
+				076E5C7A208DA66F002E5215 /* Info.plist */,
+			);
+			path = MarsPricePredictorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		076E5C54208DA66C002E5215 /* MarsPricePredictor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 076E5C7D208DA66F002E5215 /* Build configuration list for PBXNativeTarget "MarsPricePredictor" */;
+			buildPhases = (
+				076E5C51208DA66C002E5215 /* Sources */,
+				076E5C52208DA66C002E5215 /* Frameworks */,
+				076E5C53208DA66C002E5215 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarsPricePredictor;
+			productName = MarsPricePredictor;
+			productReference = 076E5C55208DA66C002E5215 /* MarsPricePredictor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		076E5C68208DA66F002E5215 /* MarsPricePredictorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 076E5C80208DA66F002E5215 /* Build configuration list for PBXNativeTarget "MarsPricePredictorTests" */;
+			buildPhases = (
+				076E5C65208DA66F002E5215 /* Sources */,
+				076E5C66208DA66F002E5215 /* Frameworks */,
+				076E5C67208DA66F002E5215 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				076E5C6B208DA66F002E5215 /* PBXTargetDependency */,
+			);
+			name = MarsPricePredictorTests;
+			productName = MarsPricePredictorTests;
+			productReference = 076E5C69208DA66F002E5215 /* MarsPricePredictorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		076E5C73208DA66F002E5215 /* MarsPricePredictorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 076E5C83208DA66F002E5215 /* Build configuration list for PBXNativeTarget "MarsPricePredictorUITests" */;
+			buildPhases = (
+				076E5C70208DA66F002E5215 /* Sources */,
+				076E5C71208DA66F002E5215 /* Frameworks */,
+				076E5C72208DA66F002E5215 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				076E5C76208DA66F002E5215 /* PBXTargetDependency */,
+			);
+			name = MarsPricePredictorUITests;
+			productName = MarsPricePredictorUITests;
+			productReference = 076E5C74208DA66F002E5215 /* MarsPricePredictorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		076E5C4D208DA66B002E5215 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Devan K";
+				TargetAttributes = {
+					076E5C54208DA66C002E5215 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					076E5C68208DA66F002E5215 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 076E5C54208DA66C002E5215;
+					};
+					076E5C73208DA66F002E5215 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 076E5C54208DA66C002E5215;
+					};
+				};
+			};
+			buildConfigurationList = 076E5C50208DA66B002E5215 /* Build configuration list for PBXProject "MarsPricePredictor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 076E5C4C208DA66B002E5215;
+			productRefGroup = 076E5C56208DA66C002E5215 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				076E5C54208DA66C002E5215 /* MarsPricePredictor */,
+				076E5C68208DA66F002E5215 /* MarsPricePredictorTests */,
+				076E5C73208DA66F002E5215 /* MarsPricePredictorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		076E5C53208DA66C002E5215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076E5C63208DA66F002E5215 /* LaunchScreen.storyboard in Resources */,
+				076E5C60208DA66F002E5215 /* Assets.xcassets in Resources */,
+				076E5C5E208DA66C002E5215 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		076E5C67208DA66F002E5215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		076E5C72208DA66F002E5215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		076E5C51208DA66C002E5215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076E5C5B208DA66C002E5215 /* ViewController.swift in Sources */,
+				076E5C59208DA66C002E5215 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		076E5C65208DA66F002E5215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076E5C6E208DA66F002E5215 /* MarsPricePredictorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		076E5C70208DA66F002E5215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076E5C79208DA66F002E5215 /* MarsPricePredictorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		076E5C6B208DA66F002E5215 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 076E5C54208DA66C002E5215 /* MarsPricePredictor */;
+			targetProxy = 076E5C6A208DA66F002E5215 /* PBXContainerItemProxy */;
+		};
+		076E5C76208DA66F002E5215 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 076E5C54208DA66C002E5215 /* MarsPricePredictor */;
+			targetProxy = 076E5C75208DA66F002E5215 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		076E5C5C208DA66C002E5215 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				076E5C5D208DA66C002E5215 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		076E5C61208DA66F002E5215 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				076E5C62208DA66F002E5215 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		076E5C7B208DA66F002E5215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		076E5C7C208DA66F002E5215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		076E5C7E208DA66F002E5215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZRW59P6NB3;
+				INFOPLIST_FILE = MarsPricePredictor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devank.MarsPricePredictor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		076E5C7F208DA66F002E5215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZRW59P6NB3;
+				INFOPLIST_FILE = MarsPricePredictor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devank.MarsPricePredictor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		076E5C81208DA66F002E5215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZRW59P6NB3;
+				INFOPLIST_FILE = MarsPricePredictorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devank.MarsPricePredictorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarsPricePredictor.app/MarsPricePredictor";
+			};
+			name = Debug;
+		};
+		076E5C82208DA66F002E5215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZRW59P6NB3;
+				INFOPLIST_FILE = MarsPricePredictorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devank.MarsPricePredictorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarsPricePredictor.app/MarsPricePredictor";
+			};
+			name = Release;
+		};
+		076E5C84208DA66F002E5215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZRW59P6NB3;
+				INFOPLIST_FILE = MarsPricePredictorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devank.MarsPricePredictorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarsPricePredictor;
+			};
+			name = Debug;
+		};
+		076E5C85208DA66F002E5215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZRW59P6NB3;
+				INFOPLIST_FILE = MarsPricePredictorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devank.MarsPricePredictorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarsPricePredictor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		076E5C50208DA66B002E5215 /* Build configuration list for PBXProject "MarsPricePredictor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				076E5C7B208DA66F002E5215 /* Debug */,
+				076E5C7C208DA66F002E5215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		076E5C7D208DA66F002E5215 /* Build configuration list for PBXNativeTarget "MarsPricePredictor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				076E5C7E208DA66F002E5215 /* Debug */,
+				076E5C7F208DA66F002E5215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		076E5C80208DA66F002E5215 /* Build configuration list for PBXNativeTarget "MarsPricePredictorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				076E5C81208DA66F002E5215 /* Debug */,
+				076E5C82208DA66F002E5215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		076E5C83208DA66F002E5215 /* Build configuration list for PBXNativeTarget "MarsPricePredictorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				076E5C84208DA66F002E5215 /* Debug */,
+				076E5C85208DA66F002E5215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 076E5C4D208DA66B002E5215 /* Project object */;
+}

@@ -14,6 +14,9 @@
 		076E5C63208DA66F002E5215 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 076E5C61208DA66F002E5215 /* LaunchScreen.storyboard */; };
 		076E5C6E208DA66F002E5215 /* MarsPricePredictorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076E5C6D208DA66F002E5215 /* MarsPricePredictorTests.swift */; };
 		076E5C79208DA66F002E5215 /* MarsPricePredictorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076E5C78208DA66F002E5215 /* MarsPricePredictorUITests.swift */; };
+		076E5C88208DA6EF002E5215 /* TTSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076E5C86208DA6EF002E5215 /* TTSegmentedControl.swift */; };
+		076E5C89208DA6EF002E5215 /* MarsHabitatPricer.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 076E5C87208DA6EF002E5215 /* MarsHabitatPricer.mlmodel */; };
+		076E5C8C208DF2C0002E5215 /* PricePredictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076E5C8B208DF2C0002E5215 /* PricePredictor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		076E5C74208DA66F002E5215 /* MarsPricePredictorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsPricePredictorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		076E5C78208DA66F002E5215 /* MarsPricePredictorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsPricePredictorUITests.swift; sourceTree = "<group>"; };
 		076E5C7A208DA66F002E5215 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		076E5C86208DA6EF002E5215 /* TTSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTSegmentedControl.swift; sourceTree = "<group>"; };
+		076E5C87208DA6EF002E5215 /* MarsHabitatPricer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MarsHabitatPricer.mlmodel; sourceTree = "<group>"; };
+		076E5C8B208DF2C0002E5215 /* PricePredictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PricePredictor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,8 @@
 				076E5C5F208DA66F002E5215 /* Assets.xcassets */,
 				076E5C61208DA66F002E5215 /* LaunchScreen.storyboard */,
 				076E5C64208DA66F002E5215 /* Info.plist */,
+				076E5C8A208DA9E0002E5215 /* Resources */,
+				076E5C8B208DF2C0002E5215 /* PricePredictor.swift */,
 			);
 			path = MarsPricePredictor;
 			sourceTree = "<group>";
@@ -123,6 +131,15 @@
 				076E5C7A208DA66F002E5215 /* Info.plist */,
 			);
 			path = MarsPricePredictorUITests;
+			sourceTree = "<group>";
+		};
+		076E5C8A208DA9E0002E5215 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				076E5C87208DA6EF002E5215 /* MarsHabitatPricer.mlmodel */,
+				076E5C86208DA6EF002E5215 /* TTSegmentedControl.swift */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				076E5C88208DA6EF002E5215 /* TTSegmentedControl.swift in Sources */,
 				076E5C5B208DA66C002E5215 /* ViewController.swift in Sources */,
+				076E5C89208DA6EF002E5215 /* MarsHabitatPricer.mlmodel in Sources */,
+				076E5C8C208DF2C0002E5215 /* PricePredictor.swift in Sources */,
 				076E5C59208DA66C002E5215 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -109,8 +109,8 @@
 				076E5C5F208DA66F002E5215 /* Assets.xcassets */,
 				076E5C61208DA66F002E5215 /* LaunchScreen.storyboard */,
 				076E5C64208DA66F002E5215 /* Info.plist */,
-				076E5C8A208DA9E0002E5215 /* Resources */,
 				076E5C8B208DF2C0002E5215 /* PricePredictor.swift */,
+				076E5C8A208DA9E0002E5215 /* Resources */,
 			);
 			path = MarsPricePredictor;
 			sourceTree = "<group>";

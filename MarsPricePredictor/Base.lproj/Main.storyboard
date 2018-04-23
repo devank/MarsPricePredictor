@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -29,7 +28,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marsHouse" translatesAutoresizingMaskIntoConstraints="NO" id="7iP-NM-nfe">
-                                                    <rect key="frame" x="16" y="11" width="343" height="221"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="243"/>
                                                     <color key="backgroundColor" red="0.42352941176470588" green="0.49411764705882355" blue="0.90588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </imageView>
                                                 <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zCh-Qq-Fnt">
@@ -82,12 +81,12 @@
                                             </subviews>
                                             <color key="backgroundColor" red="0.42352941176470588" green="0.49411764705882355" blue="0.90588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
-                                                <constraint firstItem="7iP-NM-nfe" firstAttribute="top" secondItem="flb-vF-i1W" secondAttribute="topMargin" id="08O-vi-BWt"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="7iP-NM-nfe" secondAttribute="bottom" id="6Z5-0Z-7ec"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="7iP-NM-nfe" secondAttribute="trailing" id="DSe-H4-KLc"/>
+                                                <constraint firstAttribute="bottom" secondItem="7iP-NM-nfe" secondAttribute="bottom" id="5na-6W-vAu"/>
+                                                <constraint firstItem="7iP-NM-nfe" firstAttribute="top" secondItem="flb-vF-i1W" secondAttribute="top" id="HZw-TS-Qfj"/>
+                                                <constraint firstItem="7iP-NM-nfe" firstAttribute="leading" secondItem="flb-vF-i1W" secondAttribute="leading" id="I4N-gt-bnL"/>
+                                                <constraint firstAttribute="trailing" secondItem="7iP-NM-nfe" secondAttribute="trailing" id="Pe9-cc-OGg"/>
                                                 <constraint firstItem="zCh-Qq-Fnt" firstAttribute="centerY" secondItem="flb-vF-i1W" secondAttribute="centerY" id="YkX-eE-t0b"/>
                                                 <constraint firstItem="zCh-Qq-Fnt" firstAttribute="centerX" secondItem="flb-vF-i1W" secondAttribute="centerX" id="dyb-5b-WHL"/>
-                                                <constraint firstItem="7iP-NM-nfe" firstAttribute="leading" secondItem="flb-vF-i1W" secondAttribute="leadingMargin" id="fFG-X8-E2J"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
